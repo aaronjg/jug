@@ -26,7 +26,7 @@ Does not support multiple processes!
 '''
 
 import six
-from six.moves import cPickle as pickle
+import dill as pickle
 from collections import defaultdict
 
 from .base import base_store, base_lock

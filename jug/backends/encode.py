@@ -21,7 +21,7 @@
 #  THE SOFTWARE.
 
 
-from six.moves import cPickle as pickle
+import dill as pickle
 from six import BytesIO
 import six
 import zlib

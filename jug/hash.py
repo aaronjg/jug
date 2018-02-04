@@ -37,7 +37,7 @@ def hash_update(M, elems):
     M : hashlib object
         This is the same object as the argument
     '''
-    from six.moves import cPickle as pickle
+    import dill as pickle
     from six.moves import map
     import six
 
